@@ -1,20 +1,26 @@
 import { Link } from 'react-router-dom';
-import museum1 from '../assets/museums/museum1.webp';
-import museum2 from '../assets/museums/museum2.webp';
-import museum3 from '../assets/museums/museum3.webp';
-import museum4 from '../assets/museums/museum4.webp';
+import patan from '../assets/museums/patanmuseum.jpg';
+import bhaktapur from '../assets/museums/bhaktapurmuseum.jpg';
+import kathmandu from '../assets/museums/kathmandumuseum.jpg';
+import narayanhiti from '../assets/museums/narayanhitimuseum.jpg';
 import MuseumCard from './MuseumCard';
 
 const ExploreMuseum = () => {
     return (
-        <div className="min-h-[60vh] w-full pt-20 items-center">
+        <div className="min-h-[60vh] bg-[#f6f6f6] w-full pt-20 items-center">
             <div className="flex gap-4 items-center justify-evenly flex-wrap my-6">
-                <Link to={'/tour.patan'} >
-                    <MuseumCard museumImg={museum1} title='Patan Museum' description='Located at Patan, lalitpur' status='Currently Open' />
+                <Link to={'/tour/patan'} >
+                    <MuseumCard museumImg={patan} title='Patan Museum' description='Located at Patan, lalitpur' status='Currently Open' />
                 </Link>
-                <MuseumCard museumImg={museum2} title='Bhaktapur Museum' description='Located at Durbar Square, Bhaktapur' status='Currently Open' />
-                <MuseumCard museumImg={museum3} title='Kathmandu Museum' description='Located at Kathmandu' status='Currently Open' />
-                <MuseumCard museumImg={museum4} title='Narayanhiti Museum' description='Located at Narayanhiti, Kathmandu' status='Currently Open' />
+                <Link to={'/tour/bhaktapur'} >
+                    <MuseumCard museumImg={bhaktapur} title='Bhaktapur Museum' description='Located at Durbar Square, Bhaktapur' status='Currently Open' />
+                </Link>
+                <Link to={'/tour/bhaktapur'} >
+                    <MuseumCard museumImg={kathmandu} title='The National Museum' description='Located at Kathmandu' status='Currently Open' />
+                </Link>
+                <Link to={'/tour/bhaktapur'} >
+                    <MuseumCard museumImg={narayanhiti} title='Narayanhiti Museum' description='Located at Narayanhiti, Kathmandu' status='Currently Open' />
+                </Link>
             </div>
         </div>
     );

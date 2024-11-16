@@ -5,10 +5,10 @@ import { VirtualTourPlugin } from "@photo-sphere-viewer/virtual-tour-plugin";
 import "@photo-sphere-viewer/virtual-tour-plugin/index.css";
 
 //Image files
-import firstPhoto from "../assets/1.jpg";
-import secondPhoto from "../assets/2.jpg";
-import thirdPhoto from "../assets/3.jpg";
-import fourthPhoto from "../assets/4.jpg";
+import firstPhoto from "../assets/tours/patan1.jpg";
+import secondPhoto from "../assets/tours/patan2.jpg";
+import thirdPhoto from "../assets/tours/patan3.jpg";
+import fourthPhoto from "../assets/tours/patan4.jpg";
 
 const TourPatan = () => {
     const instanceRef = useRef(null);
@@ -31,17 +31,18 @@ const TourPatan = () => {
             },
             {
                 id: "2",
-                panorama: secondPhoto,
+                panorama: thirdPhoto,
                 name: "Two",
                 links: [
                     { nodeId: "1", position: { textureX: 3500, textureY: 1800 } },
                     { nodeId: "3", position: { textureX: 100, textureY: 1800 } },
                 ],
                 defaultZoomLvl: 0,
+                defaultYaw: 0.5,
             },
             {
                 id: "3",
-                panorama: thirdPhoto,
+                panorama: secondPhoto,
                 name: "Three",
                 links: [
                     { nodeId: "2", position: { textureX: 3500, textureY: 1800 } },

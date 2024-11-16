@@ -16,9 +16,11 @@ export default function LandingPage() {
         <HeroImage />
         <HeroImage2 image={museum} museum="Patan Durbar Museum - Activity" date="22 Nov - 23 Dec 2024" quote="Newa Dhawa Dhintuna" type="primary" />
         <VisitCards />
+
         <MuseumStoryCards />
 
         <HeroImage2 image={museum2} museum="Culture and History" date="On 23rd January 2015, King Birendra Inagurated his Personal Residence" quote="Royal Palace and it's Grande Entique" type="secondary" />
+
         <ExploreMuseum />
     </>
 }

@@ -1,23 +1,24 @@
-<<<<<<< HEAD
 import ExploreMuseum from "../components/ExploreMuseum";
-=======
->>>>>>> 09f9fa9178802ff9ba6a464ba655d3a4c7825f09
 import Header from "../components/Header";
 import HeaderMarquee from "../components/HeaderMarquee";
 import HeroImage from "../components/HeroImage";
 import HeroImage2 from "../components/HeroImage2";
 import VisitCards from "../components/VisitCards";
 
+import museum from "../assets/museum4.jpg";
+import museum2 from "../assets/narayanhiti.jpg";
+import MuseumStoryCards from "../components/MuseumStoryCards";
+
 export default function LandingPage() {
     return <>
         <Header />
         <HeaderMarquee />
         <HeroImage />
-        <HeroImage2 />
+        <HeroImage2 image={museum} museum="Patan Durbar Museum - Activity" date="22 Nov - 23 Dec 2024" quote="Newa Dhawa Dhintuna" type="primary" />
         <VisitCards />
-<<<<<<< HEAD
+        <MuseumStoryCards />
+
+        <HeroImage2 image={museum2} museum="Culture and History" date="On 23rd January 2015, King Birendra Inagurated his Personal Residence" quote="Royal Palace and it's Grande Entique" type="secondary" />
         <ExploreMuseum />
-=======
->>>>>>> 09f9fa9178802ff9ba6a464ba655d3a4c7825f09
     </>
 }

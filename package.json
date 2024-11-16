@@ -10,29 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@photo-sphere-viewer/virtual-tour-plugin": "^5.11.1",
     "file-saver": "^2.0.5",
-=======
->>>>>>> 09f9fa9178802ff9ba6a464ba655d3a4c7825f09
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.53.2",
-<<<<<<< HEAD
     "react-photo-sphere-viewer": "^6.0.0",
-=======
->>>>>>> 09f9fa9178802ff9ba6a464ba655d3a4c7825f09
     "react-query": "^3.39.3",
     "react-router": "^6.28.0",
     "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
-<<<<<<< HEAD
     "@types/file-saver": "^2.0.7",
-=======
->>>>>>> 09f9fa9178802ff9ba6a464ba655d3a4c7825f09
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",

@@ -7,7 +7,7 @@ import MuseumCard from './MuseumCard';
 
 const ExploreMuseum = () => {
     return (
-        <div className="min-h-[60vh] bg-[#f6f6f6] w-full pt-20 items-center">
+        <div className="min-h-[60vh] w-full pt-20 items-center">
             <div className="flex gap-4 items-center justify-evenly flex-wrap my-6">
                 <Link to={'/tour.patan'} >
                     <MuseumCard museumImg={museum1} title='Patan Museum' description='Located at Patan, lalitpur' status='Currently Open' />

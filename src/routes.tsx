@@ -26,4 +26,5 @@ export const routes = [
         path: "/tour/bhaktapur",
         element: <TourBhaktapur />
     },
+
 ]

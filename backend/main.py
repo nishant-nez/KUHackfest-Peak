@@ -8,9 +8,8 @@ import io
 
 app = FastAPI()
 
-# Define constants
-MODEL_PATH = "./models/best.pt"  # YOLO model path
-OUTPUT_DIR = "output"  # Directory to save annotated images
+MODEL_PATH = "./models/best.pt"
+OUTPUT_DIR = "output"
 
 # Load YOLO model
 model = YOLO(MODEL_PATH)
@@ -49,9 +48,6 @@ async def predict(image: UploadFile = File(...)):
 
     # Run YOLO detection
     results = model.predict(source=image_cv, conf=0.5, save=False)
-    print('\n\n\n')
-    print(results)
-    print('\n\n\n')
 
     # Create the annotated image stream
     annotated_image_stream = save_annotated_image(results, image.filename)

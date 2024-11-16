@@ -8,6 +8,7 @@ import VisitCards from "../components/VisitCards";
 import museum from "../assets/museum4.jpg";
 import museum2 from "../assets/narayanhiti.jpg";
 import MuseumStoryCards from "../components/MuseumStoryCards";
+import Footer from "../components/Footer";
 
 export default function LandingPage() {
     return <>
@@ -22,5 +23,6 @@ export default function LandingPage() {
         <HeroImage2 image={museum2} museum="Culture and History" date="On 23rd January 2015, King Birendra Inagurated his Personal Residence" quote="Royal Palace and it's Grande Entique" type="secondary" />
 
         <ExploreMuseum />
+        <Footer />
     </>
 }

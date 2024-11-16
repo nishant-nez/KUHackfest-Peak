@@ -1,4 +1,4 @@
-import hero_image from "../assets/images/museum2.jpg";
+import hero_image from "../assets/museum2.jpg";
 
 export default function HeroImage() {
     return (

@@ -1,3 +1,4 @@
+import ExploreMuseum from "../components/ExploreMuseum";
 import Header from "../components/Header";
 import HeaderMarquee from "../components/HeaderMarquee";
 import HeroImage from "../components/HeroImage";
@@ -11,5 +12,6 @@ export default function LandingPage() {
         <HeroImage />
         <HeroImage2 />
         <VisitCards />
+        <ExploreMuseum />
     </>
 }

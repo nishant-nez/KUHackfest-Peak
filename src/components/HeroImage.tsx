@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import hero_image from "../assets/museum2.jpg";
+=======
+import hero_image from "../assets/images/museum2.jpg";
+>>>>>>> 09f9fa9178802ff9ba6a464ba655d3a4c7825f09
 
 export default function HeroImage() {
     return (

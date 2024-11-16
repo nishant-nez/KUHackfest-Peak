@@ -23,7 +23,7 @@ export default function MuseumStoryCard({ name, image, title, date, action, desc
             <p className="w-full  text-black word-wrap text-xl mt-4">{title}</p>
             <p className="text-gray-600">{date}</p>
             <p>{action}</p>
-            <p className="w-[60%] word-wrap">{description}</p>
+            <p className="w-[75%] text-xs word-wrap">{description}</p>
         </div>
     </div>
 }
